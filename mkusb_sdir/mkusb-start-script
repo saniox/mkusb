@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# This script only exists to pass the Lintian test.
+
+bash -c "TERM=xterm; /usr/share/mkusb/mkusb-start"
