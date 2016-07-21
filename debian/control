@@ -26,7 +26,7 @@ Package: mkusb-nox
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: pv
-Description: Tool to make boot drives.
+Description: Tool to make boot drives (No X).
  The mkusb tool was developed to make it simpler and safer to create boot
  drives with the method to flash or clone an iso image or a compressed image
  file. It is using dd under the hood. The target is a mass storage device,

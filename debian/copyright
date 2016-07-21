@@ -11,7 +11,7 @@ Copyright: 2016 Simon Quigley <tsimonq2@ubuntu.com>
            2014 Jörn Schönyan <joern.schoenyan@wede>
 License: GPL-3.0+
 
-Files: usb-pack_efi*
+Files: usb-pack_efi
 Copyright: 2015 Andre Rodovalho <andre.rodovalho@gmail.com>
 License: GPL-3.0+
 
