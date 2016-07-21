@@ -7,17 +7,7 @@ Index: mkusb9/mkusb.desktop
  Name=mkusb
  Comment=Install system to mass storage device, typically USB pendrive
 -Exec=bash -c 'TERM=xterm;/usr/share/mkusb/mkusb-start'
-+Exec=/usr/share/mkusb/mkusb-start-script
++Exec=/usr/share/mkusb/mkusb-start
  Icon=mkusb
  Terminal=false
  StartupNotify=false
-Index: mkusb9/mkusb_sdir/mkusb-start-script
-===================================================================
---- /dev/null	1970-01-01 00:00:00.000000000 +0000
-+++ mkusb9/mkusb_sdir/mkusb-start-script	2016-07-20 20:42:36.972967510 -0500
-@@ -0,0 +1,5 @@
-+#!/bin/bash
-+
-+# This script only exists to pass the Lintian test.
-+
-+bash -c "TERM=xterm; /usr/share/mkusb/mkusb-start"
