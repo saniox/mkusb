@@ -5,6 +5,8 @@ Maintainer: Simon Quigley <tsimonq2@ubuntu.com>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.8
 Homepage: https://help.ubuntu.com/community/mkusb
+Vcs-Browser: https://git.launchpad.net/mkusb?h=debian
+Vcs-Git: https://git.launchpad.net/mkusb -b debian
 
 Package: mkusb
 Architecture: all
